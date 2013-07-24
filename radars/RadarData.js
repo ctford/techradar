@@ -1,5 +1,5 @@
 //This is the title for your window tab, and your Radar
-document.title = "ThoughtWorks' Pan-African Technology Radar";
+document.title = "Pan-African Technology Radar";
 
 
 //This is the concentic circles that want on your radar
