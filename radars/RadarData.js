@@ -72,7 +72,8 @@ var radar_data = [
         "top" : 18,
         "color" : "#587486",
         "items" : [ 
-            {"name":"Vagrant", "pc":{"r":70,"t":40}}, 
+            {"name":"Vagrant", "pc":{"r":60,"t":30}}, 
+            {"name":"Travis CI", "pc":{"r":80,"t":50}}, 
             {"name":"Chef", "pc":{"r":150,"t":40}}, 
             {"name":"Puppet", "pc":{"r":150,"t":45}}, 
             {"name":"Dynamic data visualisation", "pc":{"r":170,"t":10}}, 
