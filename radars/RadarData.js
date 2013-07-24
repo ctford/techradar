@@ -54,16 +54,16 @@ var radar_data = [
         "top" : 18,
         "color" : "#8FA227",
         "items" : [ 
-            {"name":"Test-driven development", "pc":{"r":30,"t":130}}, 
-            {"name":"Frequent showcases", "pc":{"r":70,"t":110}},
-            {"name":"Information radiators", "pc":{"r":90,"t":130}},
-            {"name":"Retrospectives", "pc":{"r":50,"t":100}},
-            {"name":"Infrastructure as a service", "pc":{"r":130,"t":130}},
-            {"name":"In-cycle XD", "pc":{"r":160,"t":150}},
-            {"name":"In-cycle testing", "pc":{"r":150,"t":170}},
             {"name":"Business intelligence", "pc":{"r":270,"t":100}},
+            {"name":"Frequent showcases", "pc":{"r":70,"t":110}},
+            {"name":"In-cycle testing", "pc":{"r":150,"t":170}},
+            {"name":"In-cycle XD", "pc":{"r":160,"t":150}},
+            {"name":"Information radiators", "pc":{"r":90,"t":130}},
+            {"name":"Infrastructure as a service", "pc":{"r":130,"t":130}},
+            {"name":"Integrating at the database", "pc":{"r":360,"t":160}}, 
+            {"name":"Retrospectives", "pc":{"r":50,"t":100}},
             {"name":"Responsive design", "pc":{"r":130,"t":110}},
-            {"name":"Integrating at the database", "pc":{"r":360,"t":160}} 
+            {"name":"Test-driven development", "pc":{"r":30,"t":130}}
         ]
     },
     { "quadrant": "Tools",
@@ -71,16 +71,16 @@ var radar_data = [
         "top" : 18,
         "color" : "#587486",
         "items" : [ 
-            {"name":"Vagrant", "pc":{"r":50,"t":30}}, 
-            {"name":"Continuous integration", "pc":{"r":70,"t":20}}, 
-            {"name":"Functional testing", "pc":{"r":180,"t":60}}, 
-            {"name":"Travis CI", "pc":{"r":80,"t":50}}, 
             {"name":"Chef", "pc":{"r":150,"t":40}}, 
-            {"name":"Puppet", "pc":{"r":150,"t":45}}, 
-            {"name":"Dynamic data visualisation", "pc":{"r":170,"t":10}}, 
+            {"name":"Continuous integration", "pc":{"r":70,"t":20}}, 
             {"name":"Drupal", "pc":{"r":260,"t":80}}, 
-            {"name":"Wordpress", "pc":{"r":260,"t":75}}, 
-            {"name":"TFS", "pc":{"r":360,"t":40}} 
+            {"name":"Dynamic data visualisation", "pc":{"r":170,"t":10}}, 
+            {"name":"Functional testing", "pc":{"r":180,"t":60}}, 
+            {"name":"Puppet", "pc":{"r":150,"t":45}}, 
+            {"name":"TFS", "pc":{"r":360,"t":40}},
+            {"name":"Travis CI", "pc":{"r":80,"t":50}}, 
+            {"name":"Vagrant", "pc":{"r":50,"t":30}}, 
+            {"name":"Wordpress", "pc":{"r":260,"t":75}}
         ]
     },
     { "quadrant": "Platforms",
@@ -88,16 +88,16 @@ var radar_data = [
          "top" : (h/2 + 18),
         "color" : "#DC6F1D",
         "items" : [
-            {"name":"USSD and SMS as UI", "pc":{"r":140,"t":185}}, 
             {"name":"Android", "pc":{"r":130,"t":230}}, 
+            {"name":"Document databases", "pc":{"r":50,"t":220}}, 
             {"name":"J2ME", "pc":{"r":140,"t":200}}, 
             {"name":"Mobile web", "pc":{"r":110,"t":210}}, 
-            {"name":"Document databases", "pc":{"r":50,"t":220}}, 
-            {"name":"Relational databases", "pc":{"r":50,"t":250}}, 
-            {"name":"Vumi", "pc":{"r":250,"t":250}}, 
             {"name":"Open Stack", "pc":{"r":270,"t":200}}, 
+            {"name":"Relational databases", "pc":{"r":50,"t":250}}, 
             {"name":"Singleton infrastructure", "pc":{"r":370,"t":240}}, 
-            {"name":"Snowflake servers", "pc":{"r":350,"t":230}} 
+            {"name":"Snowflake servers", "pc":{"r":350,"t":230}}, 
+            {"name":"USSD and SMS as UI", "pc":{"r":140,"t":185}}, 
+            {"name":"Vumi", "pc":{"r":250,"t":250}}
         ]
     },
     { "quadrant": "Frameworks",
@@ -105,16 +105,16 @@ var radar_data = [
         "left"  : (w-200+30),
         "top" :   (h/2 + 18),
         "items" : [ 
-            {"name":"Scratch, Alice, and Kodu", "pc":{"r":230,"t":330}},
-            {"name":"Java.next", "pc":{"r":230,"t":280}},
-            {"name":"Twitter bootstrap", "pc":{"r":130,"t":350}},
             {"name":"Django", "pc":{"r":40,"t":330}},
+            {"name":"Handwritten CSS", "pc":{"r":340,"t":300}},
+            {"name":"Java.next", "pc":{"r":230,"t":280}},
+            {"name":"JQuery", "pc":{"r":60,"t":300}},
+            {"name":"Logic in the database", "pc":{"r":330,"t":330}},
+            {"name":"Scratch, Alice, and Kodu", "pc":{"r":230,"t":330}},
             {"name":"Symfony", "pc":{"r":250,"t":340}},
             {"name":"Rails", "pc":{"r":60,"t":280}},
-            {"name":"JQuery", "pc":{"r":60,"t":300}},
             {"name":"Robotium", "pc":{"r":130,"t":320}},
-            {"name":"Logic in the database", "pc":{"r":330,"t":330}},
-            {"name":"Handwritten CSS", "pc":{"r":340,"t":300}}
+            {"name":"Twitter bootstrap", "pc":{"r":130,"t":350}}
         ]
     }
 ];
