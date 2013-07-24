@@ -55,7 +55,6 @@ var radar_data = [
         "color" : "#8FA227",
         "items" : [ 
             {"name":"Test-driven development", "pc":{"r":30,"t":130}}, 
-            {"name":"Continuous integration", "pc":{"r":50,"t":120}}, 
             {"name":"Frequent showcases", "pc":{"r":70,"t":110}},
             {"name":"Information radiators", "pc":{"r":90,"t":130}},
             {"name":"Retrospectives", "pc":{"r":50,"t":100}},
@@ -72,14 +71,15 @@ var radar_data = [
         "top" : 18,
         "color" : "#587486",
         "items" : [ 
-            {"name":"Vagrant", "pc":{"r":60,"t":30}}, 
+            {"name":"Vagrant", "pc":{"r":50,"t":30}}, 
+            {"name":"Continuous integration", "pc":{"r":70,"t":20}}, 
             {"name":"Travis CI", "pc":{"r":80,"t":50}}, 
             {"name":"Chef", "pc":{"r":150,"t":40}}, 
             {"name":"Puppet", "pc":{"r":150,"t":45}}, 
             {"name":"Dynamic data visualisation", "pc":{"r":170,"t":10}}, 
             {"name":"Drupal", "pc":{"r":260,"t":80}}, 
             {"name":"Wordpress", "pc":{"r":260,"t":75}}, 
-            {"name":"Team foundation server", "pc":{"r":360,"t":40}} 
+            {"name":"TFS", "pc":{"r":360,"t":40}} 
         ]
     },
     { "quadrant": "Platforms",
