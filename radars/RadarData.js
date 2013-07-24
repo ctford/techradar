@@ -73,6 +73,7 @@ var radar_data = [
         "items" : [ 
             {"name":"Vagrant", "pc":{"r":50,"t":30}}, 
             {"name":"Continuous integration", "pc":{"r":70,"t":20}}, 
+            {"name":"Functional testing", "pc":{"r":180,"t":60}}, 
             {"name":"Travis CI", "pc":{"r":80,"t":50}}, 
             {"name":"Chef", "pc":{"r":150,"t":40}}, 
             {"name":"Puppet", "pc":{"r":150,"t":45}}, 
@@ -99,7 +100,7 @@ var radar_data = [
             {"name":"Snowflake servers", "pc":{"r":350,"t":230}} 
         ]
     },
-    { "quadrant": "Languages",
+    { "quadrant": "Frameworks",
         "color" : "#B70062",
         "left"  : (w-200+30),
         "top" :   (h/2 + 18),
@@ -110,6 +111,7 @@ var radar_data = [
             {"name":"Django", "pc":{"r":40,"t":330}},
             {"name":"Symfony", "pc":{"r":250,"t":340}},
             {"name":"Rails", "pc":{"r":60,"t":280}},
+            {"name":"JQuery", "pc":{"r":60,"t":300}},
             {"name":"Robotium", "pc":{"r":130,"t":320}},
             {"name":"Logic in the database", "pc":{"r":330,"t":330}},
             {"name":"Handwritten CSS", "pc":{"r":340,"t":300}}
