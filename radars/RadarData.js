@@ -91,6 +91,7 @@ var radar_data = [
             {"name":"Android", "pc":{"r":130,"t":230}}, 
             {"name":"Document databases", "pc":{"r":50,"t":220}}, 
             {"name":"J2ME", "pc":{"r":140,"t":200}}, 
+            {"name":"Local cloud infrastructure", "pc":{"r":230,"t":230}}, 
             {"name":"Mobile web", "pc":{"r":110,"t":210}}, 
             {"name":"Open Stack", "pc":{"r":270,"t":200}}, 
             {"name":"Relational databases", "pc":{"r":50,"t":250}}, 
